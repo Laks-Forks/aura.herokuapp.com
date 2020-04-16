@@ -10,7 +10,7 @@ body {
 
 .slider {
     display: inline-block;
-    margin-top: 20%;
+    margin-top: 10%;
     height: 330px;
     flex-direction: row;
     width: 100%;
