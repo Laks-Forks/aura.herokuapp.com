@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aura - Home</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='navbar.css')}}">
+    <link rel="stylesheet" href="{{ url_for('static', filename='container-item.css')}}">
+    <link rel="stylesheet" href="{{ url_for('static', filename='slider.css')}}">
+</head>
+<body>
+    <div class="navbar">
+        <a href="{{ url_for('home.homepage') }}" style="float: left;">Aura</a>
+        <a href="" style="color:rgb(52, 32, 165);">Login Or Register</a>
+    </div>
+    <div class="slider">
+        <h1>Aura</h1>
+        <h3>Uma rede social para <span style="border-left: 5px solid rgb(52, 32, 165);">  programadores</span>.</h3>        
+    </div>
+    <div class="container">
+        <div class="link">
+            <h1>Devs</h1>
+            <a href="">Open-Source</a>
+            <a href="{{ url_for('stack.stackpage')}}">Stack</a>
+        </div>
+        <div class="link">
+            <h1>Recursos</h1>
+            <a href="">Termos</a>
+        </div>
+        <div class="link">
+            <h1>Empresa</h1>
+            <a href="">Sobre</a>
+        </div>
+    </div>
+</body>
+</html>

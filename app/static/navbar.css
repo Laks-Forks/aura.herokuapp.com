@@ -1,0 +1,14 @@
+
+.navbar {
+    position: absolute;
+    width: 100%;
+}
+
+.navbar a {
+    text-decoration: none;
+    font-size: 19px;
+    padding: 14px 16px;
+    color: #000;
+    float: right;
+}
+
