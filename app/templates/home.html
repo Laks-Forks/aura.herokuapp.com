@@ -15,7 +15,7 @@
         <a href="" style="color:rgb(52, 32, 165);">Login Or Register</a>
     </div>
     <div class="slider">
-        <img src="../static/img/aura-wait.png" />    
+        <img src="{{ url_for('static', filename='img/aura-wait.png')}}"/>    
     </div>
     <div class="container">
         <div class="link">
@@ -29,7 +29,7 @@
         </div>
         <div class="link">
             <h1>Empresa</h1>
-            <a href="">Sobre</a>
+            <a href="{{ url_for('about.aboutpage')}}">Sobre</a>
         </div>
     </div>
 </body>

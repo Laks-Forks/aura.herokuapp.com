@@ -3,6 +3,7 @@
 from flask import Flask, render_template
 from app.home import home
 from app.stack import stack
+from app.about import about
 
 app = Flask(__name__)
 
@@ -12,3 +13,4 @@ def page_not_found(e):
 
 app.register_blueprint(home)
 app.register_blueprint(stack)
+app.register_blueprint(about)
