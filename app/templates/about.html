@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aura - About</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='navbar.css')}}">
+    <link rel="stylesheet" href="{{ url_for('static', filename='slider.css')}}">
+    <link rel="stylesheet" href="{{ url_for('static', filename='container-item.css')}}">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <div class="navbar">
+        <a href="{{ url_for('home.homepage') }}" style="float: left;">Aura</a>
+        <a href="" style="color:rgb(52, 32, 165);" title="Constuindo">Login Or Register</a>
+    </div>
+    <div class="slider">
+        <img src="{{ url_for('static', filename='img/aura-wait.png')}}"/>    
+        <h1 style="font-size: 24px;">A Aura chat é uma rede social para programadores...<br>Criada em 16/04/20 por <a href="https://github.com/freazesss">Gustavo Lins</a></h1>
+    </div>
+</body>
+</html>
